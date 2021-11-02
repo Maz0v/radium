@@ -1,0 +1,103 @@
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLA
+$ 
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLA
+$ mkdir assignment
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLA
+$ ls
+assignment
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLA
+$ cd assignment
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ mkdir source
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ mkdir destination
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ ls
+destination  source
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ cd source
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentsource
+$ touch myfile.txt
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentsource
+$ cat myfile.txt
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentsource
+$ cat myfile.txt
+Hi My name is Mazhar Alam
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentsource
+$ cat myfile.txt
+Hi My name is Mazhar Alam
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentsource
+$ cd ..
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ cp -r source destination
+cp missing destination file operand after 'source destination'
+Try 'cp --help' for more information.
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ cp -r source destination
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ cd destination
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ ls
+source
+Hi My name is Mazhar Alam
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ rm source
+rm cannot remove 'source' Is a directory
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ rm -r source
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ cd ..
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ cp sourcemyfile.txt destination
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ cd destination
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ ls
+myfile.txt
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ rm myfile.txt
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ cd assignment
+bash cd assignment No such file or directory
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ cd ..
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ mv sourcemyfile.txt destination
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignment
+$ cd destination
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ vim myfile.txt
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$ grep -i functionup myfile.txt
+hello I am a student of functionup ,& functionup is a very good place for 
+
+Mazhar@DESKTOP-PCUVIAU MINGW64 dTESLAassignmentdestination
+$
